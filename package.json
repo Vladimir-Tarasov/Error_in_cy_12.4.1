@@ -1,0 +1,17 @@
+{
+  "name": "error_in_cy_12.4.1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tiny-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.4.1",
+    "node-wget": "^0.4.3",
+    "tiny-server": "^1.1.1"
+  }
+}
