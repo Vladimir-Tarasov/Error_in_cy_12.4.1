@@ -71,7 +71,7 @@ describe('Articles', () => {
             cy.get('@randomArticle').find('h1')
                 .invoke('text')
                 .invoke('trim')
-                .as('randomArticleTitle')
+                .as('randomArticleTitle', { type: 'static' })
                 .then(title => cy.log(title));
 
             cy.get('@randomArticle')
